@@ -1,31 +1,66 @@
 <!doctype html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>W Kyle Resurreccion - About Me</title>
+
   </head>
+
   <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">W Kyle Resurrecion</a>
+    <header class="sticky-top pb-3">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">W Kyle Resurrecion</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Portfolio</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
+    </header>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <main class="container-sm card translucent py-auto">
+      <section class="row container-fluid mx-auto pt-2 border-bottom border-info">
+        <h1 class="text-center display-4">About Me</h1>
+      </section>
+      <section class="row">
+        <img class="img-thumbnail img-fluid rounded float-left col-4 my-3 mx-auto pt-3" id="headshot" src="assets/headshot.jpg" alt="W Kyle Resurreccion headshot" title="W Kyle Resurreccion">
+        <section class="col-8 text-justify my-4 mx-auto pt-4">
+          Hello world! I am <span class="font-weight-bolder">William Kyle Resurreccion</span>, but everyone just calls me <span class="font-weight-bolder">Kyle</span>. I currently work as an office manager for a home health care agency in Chicago. I am also a student of web development. I decided to learn code because it gives me the opportunity to express myself creatively as well as to boost my skills professionally. Stick around for a while and check out my website!
+          <section class=" blockquote text-right text-info font-weight-bolder">
+            <p class="mb-0 mt-4">Logic will get you from A to Z; imagination will get you anywhere.</p>
+            <footer class="blockquote-footer font-italic">Albert Einstein</footer>
+          </section>
+        </section>
+      </section>
+    </main>
+    
+    <footer class="fixed-bottom bg-dark pt-3" id="footer">
+      <section class="mx-auto">
+        <a href="https://github.com/kyleres">
+          <img class="float-left iconLink pl-3 my-auto" src="assets/GitHub-Mark-32px.png">
+        </a>
+        <a href="https://www.linkedin.com/in/wkresurreccion/">
+          <img class="float-left iconLink pl-3 my-auto" src="assets/LI-In-Bug.png">
+        </a>
+      </section>
+      <p class="text-right text-muted pr-3">&copy Copyright 2020</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
   </body>
 </html>
