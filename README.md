@@ -42,4 +42,4 @@ For this assignment, my goal is to learn as much as I can about Bootstrap and us
 * https://scratch.mit.edu/ for my first exercise in computer logic
 * https://www.linkedin.com/ for LinkedIn icon
 * https://github.com/ for GitHub icon and for hosting my repositories and websites
-Special thanks to my instructor, my TAs, W3schools.com, and various other resources that I found courtesy of Google for making this happen!
+* Special thanks to my instructor, my TAs, W3schools.com, and various other resources that I found courtesy of Google for making this happen!
