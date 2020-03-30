@@ -1,3 +1,4 @@
+/* Main, Body, Header and Footer */
 body {
     background-image: url("assets/background.jpg");
     background-size: 100%;
@@ -5,6 +6,8 @@ body {
 
 main {
     margin-bottom: 65px;
+    animation-name: mainReveal;
+    animation-duration: 1s;
 }
 
 .translucent {
@@ -16,13 +19,80 @@ main {
     max-height: 50px;
 }
 
+#footer {
+    max-width: 100%;
+    max-height: 50px;
+
+}
+
+@keyframes mainReveal {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+/*About Me Page*/
 #headshot {
     max-width: 250px;
     max-height: 250px;
 }
 
-#footer {
-    max-width: 100%;
-    max-height: 50px;
+/* Portfolio Page*/
+.projectTitle {
+    color: #292b2c;
+    transition: font-size 1s, color .5s;
+}
 
+.projectTitle:hover {
+    text-decoration: none;
+    font-size: 30px;
+    color: #4597b0;
+}
+
+.projectCard {
+    text-align: center;
+    display: block;
+}
+
+.projectCard .projectDetails {
+    display: none;
+}
+
+.projectCard .projectImage {
+    display: none;
+}
+
+.projectCard:hover .projectDetails {
+    display: block;
+    animation-name: detailsReveal;
+    animation-duration: 1s;
+}
+
+.projectCard:hover .projectImage {
+    display: block;
+    animation-name: imageReveal;
+    animation-duration: 1s;
+}
+
+@keyframes detailsReveal {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes imageReveal {
+    from {
+        opacity: 0%;
+        width: 0%;
+    }
+    to {
+        opacity: 100%;
+        width: 100%;
+    }
 }

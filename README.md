@@ -33,6 +33,10 @@ For this assignment, my goal is to learn as much as I can about Bootstrap and us
     * added background image
     * added CSS attributes for image sizing and to fix spacing issues
 * tested links for functionality
+### v1.1
+* updated About Me page
+* added basic animations for main divs
+* overhaul and update of Portfolio page
 
 ## Framework
 ### Built with Bootstrap
